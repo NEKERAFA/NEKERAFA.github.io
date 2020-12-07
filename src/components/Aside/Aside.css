@@ -1,0 +1,11 @@
+.Aside {
+    padding: 8px 0;
+    border-style: solid;
+    border-width: 2px;
+    margin-right: 8px;
+    position: fixed;
+}
+
+.AsideContainer {
+    width: 64px;
+}

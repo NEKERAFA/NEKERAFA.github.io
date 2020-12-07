@@ -1,0 +1,14 @@
+.TitleSection {
+    text-align: center;
+    text-decoration-style: solid;
+    text-decoration-line: underline;
+    text-decoration-skip-ink: auto;
+    font-size: 20pt !important;
+    font-weight: 300 !important;
+    margin-top: 24px !important;
+    margin-bottom: 16px !important;
+}
+
+.TitleSection:first-of-type {
+    margin-top: 0 !important;
+}

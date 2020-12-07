@@ -1,0 +1,1 @@
+export const GREEEN = "#64BA54";

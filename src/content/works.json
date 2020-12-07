@@ -1,0 +1,92 @@
+[
+    {
+        "business": "Tiendeo",
+        "icon": "images/tiendeo.png",
+        "color": "#d3312e",
+        "work": "fullstack",
+        "contract": "indefinite",
+        "date": {
+            "from": {
+                "month": "december",
+                "year": 2020
+            }
+        }
+    },
+    {
+        "business": "Aldaba",
+        "icon": "images/aldaba.png",
+        "color": "#c4422f",
+        "work": "fullstack",
+        "contract": "indefinite",
+        "date": {
+            "from": {
+                "month": "june",
+                "year": 2020
+            }
+        },
+        "skills": [
+            "front_aldaba",
+            "back_aldaba",
+            "version_aldaba",
+            "work_aldaba"
+        ]
+    },
+    {
+        "contract": "formative",
+        "date": {
+            "from": {
+                "month": "december",
+                "year": 2019
+            }
+        }
+    },
+    {
+        "contract": "intern",
+        "date": {
+            "from": {
+                "month": "october",
+                "year": 2019
+            }
+        }
+    },
+    {
+        "business": "Everis",
+        "icon": "images/everis.png",
+        "color": "#9bae05",
+        "work": "java",
+        "contract": "formative",
+        "date": {
+            "from": {
+                "month": "october",
+                "year": 2018
+            },
+            "to": {
+                "month": "april",
+                "year": 2019
+            }
+        },
+        "skills": [
+            "back_java_everis",
+            "version_java_everis",
+            "work_everis"
+        ]
+    },
+    {
+        "work": "net_plsql",
+        "contract": "intern",
+        "date": {
+            "from": {
+                "month": "september",
+                "year": 2017
+            },
+            "to": {
+                "month": "december",
+                "year": 2017
+            }
+        },
+        "skills": [
+            "back_net_everis",
+            "version_net_everis"
+        ]
+    }
+]

@@ -1,0 +1,87 @@
+.Page {
+    width: 100%;
+}
+
+.Article {
+    padding: 24px;
+}
+
+.Article p {
+    margin-bottom: 1em;
+}
+
+.Article p:last-child {
+    margin-bottom: 0;
+}
+
+.Biography {
+    background-color: #64BA54 !important;
+    color: #FFF !important;
+}
+
+.Centered {
+    text-align: center;
+}
+
+.Centered a {
+    margin-top: 12px;
+    margin-right: 12px;
+    font-size: 14pt;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.Centered a:last-child {
+    margin-right: 0;
+}
+
+.Timeline {
+    padding: 8px;
+}
+
+.Icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.TimelineHour {
+    flex: none !important;
+    width: 100px;
+}
+
+.TimelineHourLine {
+    font-size: 12px !important;
+}
+
+.TimelineContent {
+    padding: 16px;
+}
+
+.TimelineHourNoIcon {
+    margin-right: 16px !important;
+}
+
+.TimelineContentNoIcon {
+    margin-left: 16px !important;
+}
+
+/* Desktop */
+@media only screen and (min-width: 960px) {
+    .Avatar {
+        width: 180px !important;
+        height: 180px !important;
+        margin: auto;
+    }
+    
+}
+
+/* Mobile */
+@media only screen and (max-width: 960px) {
+    .Avatar {
+        width: 120px !important;
+        height: 120px !important;
+        margin: auto;
+    }
+    
+}
