@@ -1,9 +1,9 @@
 {
     "Biography": "Biografía",
     "Subtitle": "Desenvolvedor Full-Stack e de videoxogos",
-    "AboutMe1": "Graduado en Enxenaría Informatica pola Universidade da Coruña. No meu percorrido laboral estiven en varios proxectos que usaban .NET, PL/SQL, Java ou React, compartindo metodoloxías áxiles entre todos eles.",
+    "AboutMe1": "Graduado en Enxenaría Informática pola Universidade da Coruña. No meu percorrido laboral estiven en varios proxectos que usaban .NET, PL/SQL, Java ou React, compartindo metodoloxías áxiles entre todos eles.",
     "AboutMe2": "No meu tempo libre gustame desenvolver proxectos de videoxogos, sexan de forma desinteresada ou para competir en Game Jams. Os meus proxectos están desenvolvidos en Unity, LÖVE (Love2D) ou Godot; os cales están disponibles como código libre nos meus repositiorios de GitHub e GitLab.",
-    "AboutMe3": "Ademais, tamén desenvolvo proxectos persoais de maker e modder en RaspberryPi e Arduino, así como homebrew en Android, PSP e PSVita.",
+    "AboutMe3": "Ademais, tamén desenvolvo proxectos persoais de maker e modder en Raspberry Pi e Arduino, así como homebrew en Android, PSP e PSVita.",
     "Work": "Traballo",
     "fullstack": "Desenvolvedor FullStack .NET e React",
     "java": "Desenvolvedor Java",
@@ -28,10 +28,12 @@
     "version_aldaba": "Control de versións con Git en Azure DevOps",
     "work_aldaba": "O traballo foi xestionado usando metodoloxía SCRUM mediante sprints",
     "back_java_everis": "Back-end desenvolto en Java que usaba Sprint Framework cun Front-end desenvolto en JavaFX",
-    "version_java_everis": "Control de versión con SVN",
+    "version_java_everis": "Control de versións con SVN",
     "work_everis": "O traballo foi xestionado usando metodoloxía SCRUM en Jira",
     "back_net_everis": "Proxecto desenvolto en .NET Framework e que usaba procesos PL/SQL",
     "version_net_everis": "Control de versións mediante TFS",
     "Education": "Educación",
+    "muei": "Mestrado Universitario en Enxeñaría Informática",
+    "gei": "Grao en Enxeñaría Informática",
     "Portfolio": "Portfolio"
 }

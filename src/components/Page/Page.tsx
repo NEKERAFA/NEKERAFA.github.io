@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import './Page.css'
 import { Timeline, TimelineConnector, TimelineContent, TimelineDot, TimelineItem, TimelineOppositeContent, TimelineSeparator } from '@material-ui/lab';
 import works from '../../content/works.json';
+import education from '../../content/education.json';
 
 const Page = () => {
     const { t } = useTranslation('Page');
@@ -101,52 +102,42 @@ const Page = () => {
         <TitleSection id="education" content={t('Education')} />
         <Paper className="Timeline">
             <Timeline>
-                {works.map(work => {
-                    const newBusiness = work.business !== undefined;
+                {education.map(study => {
+                    const newStudy = study.institution !== undefined;
 
                     let hourClasses = "TimelineHour";
-                    if (!newBusiness) {
+                    if (!newStudy) {
                         hourClasses = `${hourClasses} TimelineHourNoIcon`;
                     }
 
                     let contentClasses = "TimelineContent";
-                    if (!newBusiness) {
+                    if (!newStudy) {
                         contentClasses = `${contentClasses} TimelineContentNoIcon`;
                     }
 
                     return <TimelineItem>
                         <TimelineOppositeContent className={hourClasses}>
                             <Typography className="TimelineHourLine" variant="subtitle2" color="textSecondary">
-                                {`${t(work.date.from.month)} ${work.date.from.year}`}
+                                {`${study.date.from.year}`}
                             </Typography>
-                            {work.date.to && <Typography className="TimelineHourLine" variant="subtitle2" color="textSecondary">
-                                {`- ${t(work.date.to.month)} ${work.date.to.year}`}
+                            {study.date.to && <Typography className="TimelineHourLine" variant="subtitle2" color="textSecondary">
+                                {`- ${study.date.to.year}`}
                             </Typography>}
                         </TimelineOppositeContent>
                         <TimelineSeparator>
-                            <TimelineDot style={work.color ? { backgroundColor: work.color } : undefined}>
-                                { work.icon ? <img className="Icon" src={work.icon} /> : undefined }
+                            <TimelineDot style={study.color ? { backgroundColor: study.color } : undefined}>
+                                { study.icon ? <img className="Icon" src={study.icon} /> : undefined }
                             </TimelineDot>
                             <TimelineConnector />
                         </TimelineSeparator>
                         <TimelineContent>
                             <Paper variant="outlined" className={contentClasses}>
-                                {work.work ? <Typography variant="h6" component="h2">
-                                    {t(work.work)}
+                                {study.study ? <Typography variant="h6" component="h2">
+                                    {t(study.study)}
                                 </Typography> : undefined}
-                                {work.business ? <Typography variant="subtitle1" component="h3" color="textSecondary">
-                                    {work.business}
+                                {study.institution ? <Typography variant="subtitle1" component="h3" color="textSecondary">
+                                    {study.institution}
                                 </Typography> : undefined}
-                                <Typography variant="subtitle2" component="h4" color="textSecondary">
-                                    {t(work.contract)}
-                                </Typography>
-                                {work.skills ? <ul>
-                                    {work.skills.map(skill => 
-                                        <Typography variant="body1" component="li">
-                                            {t(skill)}
-                                        </Typography>
-                                    )}
-                                </ul> : undefined}
                             </Paper>
                         </TimelineContent>
                     </TimelineItem>

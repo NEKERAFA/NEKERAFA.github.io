@@ -1,0 +1,24 @@
+[
+    {
+        "institution": "Universidade da Coruña",
+        "icon": "images/udc.png",
+        "color": "#ffffff",
+        "study": "muei",
+        "date": {
+            "from": {
+                "year": 2018
+            }
+        }
+    },
+    {
+        "study": "gei",
+        "date": {
+            "from": {
+                "year": 2018
+            },
+            "to": {
+                "year": 2014
+            }
+        }
+    }
+]
